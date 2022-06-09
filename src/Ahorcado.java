@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+
+
+/**
+ * Ahorcado sin objetos
+ * @author MEMORY SISTEMAS
+ *
+ */
+
 public class Ahorcado {
 	private static final String PALABRA = "MAMA";
 	private static final char COMODIN = '_';
