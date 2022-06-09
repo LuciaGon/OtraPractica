@@ -25,8 +25,6 @@ public class Partida {
 	}
 
 	public boolean isTerminada() {
-//		return objetivo.toCharArray().equals(estadoPalabra);
-//		return objetivo.equals(estadoPalabra.toString());
 		boolean terminada = true;
 		for (int i = 0; i < objetivo.length(); i++) {
 			terminada &= estadoPalabra[i] != COMODIN;
